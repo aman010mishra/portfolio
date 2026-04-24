@@ -6,16 +6,6 @@ export function Hero() {
     <section id="hero" className="relative min-h-screen flex items-center justify-center pt-20">
       <div className="container relative z-10 px-6 mx-auto">
         <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-6 flex items-center gap-4"
-          >
-            <div className="h-[1px] w-12 bg-cyan-500 glow-cyan"></div>
-            <span className="font-mono text-cyan-400 tracking-widest text-sm uppercase">System Initialization Complete</span>
-          </motion.div>
-
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
