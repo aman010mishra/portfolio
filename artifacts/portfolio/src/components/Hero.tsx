@@ -1,13 +1,9 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { HeroScene } from './Scene';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 
 export function Hero() {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center pt-20">
-      <HeroScene />
-      
       <div className="container relative z-10 px-6 mx-auto">
         <div className="max-w-4xl mx-auto">
           <motion.div

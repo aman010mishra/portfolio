@@ -6,10 +6,12 @@ import { Projects } from './components/Projects';
 import { Education } from './components/Education';
 import { Contact } from './components/Contact';
 import { AudioPlayer } from './components/AudioPlayer';
+import { WolfBackground } from './components/WolfBackground';
 
 function App() {
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans overflow-x-hidden selection:bg-cyan-500/30 selection:text-cyan-200 dark">
+    <div className="min-h-screen text-foreground font-sans overflow-x-hidden selection:bg-cyan-500/30 selection:text-cyan-200 dark relative">
+      <WolfBackground />
       <AudioPlayer />
 
       <nav className="fixed top-0 left-0 right-0 z-40 px-6 py-4 glass-panel border-x-0 border-t-0 flex justify-between items-center">
